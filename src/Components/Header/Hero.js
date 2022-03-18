@@ -4,18 +4,20 @@ export default function Hero() {
     return (
         <>
             <div className="flex flex-col space-y-12 bg-black">
-                <div className="text-center">
-                    <p className="font-primary text-xl"> April 14th 2022</p>
-                    <p className="font-secondary text-7xl linear-wipe p-5"> SPECTRUM </p>
-                    <p className="font-primary text-xl p-3"> IF YOU HAVEN'T FOUND IT YET, KEEP LOOKING.</p>
-                    <p className="font-primary text-xl p-3"> REACH FOR THE SPECTRUM!</p>
+                <div className="flex flex-col items-center">
+                    <div className="w-fit">
+                        <p className="font-primary text-xl pl-5 font-bold"> April 14th 2022</p>
+                        <p className="font-secondary text-8xl p-4 font-bold"> SPECTRUM </p>
+                    </div>
+                    <p className="font-primary text-xl p-3 text-center"> IF YOU HAVEN'T FOUND IT YET, KEEP LOOKING.</p>
+                    <p className="font-primary text-xl p-3 text-center"> REACH FOR THE SPECTRUM!</p>
                 </div>
                 <div className="flex items-center justify-center space-x-4 pb-5">
                     <div>
-                        <button className="font-primary font-bold rounded bg-registerNow text-black p-3 hover:text-white hover:bg-black hover:border border-registerNow"> REGISTER NOW </button>
+                        <button className="font-primary font-bold text-2xl rounded border-4 border-registerNow bg-registerNow text-black p-5 data-hover:reg hover:bg-orange-300 hover:border-5 hover:border-orange-300 hover:p-5"> REGISTER NOW </button>
                     </div>
                     <div>
-                        <button className="font-primary font-bold rounded bg-registerNow text-black p-3 hover:text-white hover:bg-black hover:border border-registerNow"> JOIN DISCORD </button>
+                        <button className="font-primary font-bold text-2xl border-4 border-registerNow rounded p-5 text-white hover:bg-orange-300/50 hover:border-5 hover:border-orange-300 hover:p-5"> JOIN DISCORD </button>
                     </div>
                 </div>
                 <div className="space-y-10"></div>
