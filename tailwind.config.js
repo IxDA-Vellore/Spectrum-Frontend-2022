@@ -33,6 +33,7 @@ module.exports = {
       colors: {
         "registerNow": "#CBFC2A",
         "registerNowStroke": "#CAFB5B",
+        "registerNowHover": "#FFE084",
         ppgrey: "#171717",
         pppink: "#FFC3ED",
       },
@@ -54,4 +55,9 @@ module.exports = {
     },
   },
   plugins: [],
+  variants: {
+    extend: {
+      visibility: ["group-hover"],
+    },
+  },
 };

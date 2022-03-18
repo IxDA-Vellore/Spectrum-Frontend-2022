@@ -1,12 +1,15 @@
 import React from 'react';
-import sportsMedal from "../../Assets/sports-medal.png";
-import smilingFaceWithHeartEyes from "../../Assets/smiling-face-with-heart-eyes.png";
-import happyFaceWithEnlargedEyes from "../../Assets/happy-face-with-enlarged-eyes.png";
-import sparkles from "../../Assets/sparkles.png";
-import artistPalette from "../../Assets/artist-palette.png";
-import trophy from "../../Assets/trophy.png";
-import faceSavouringFood from "../../Assets/face-savouring-food.png";
-import crystalBall from "../../Assets/crystal-ball.png";
+
+//Components Import
+import sportsMedal from "../../Assets/sports-medal.svg";
+import smilingFaceWithHeartEyes from "../../Assets/smiling-face-with-heart-eyes.svg";
+import happyFaceWithEnlargedEyes from "../../Assets/happy-face-with-enlarged-eyes.svg";
+import sparkles from "../../Assets/sparkles.svg";
+import artistPalette from "../../Assets/artist-palette.svg";
+import trophy from "../../Assets/trophy.svg";
+import faceSavouringFood from "../../Assets/face-savouring-food.svg";
+import crystalBall from "../../Assets/crystal-ball.svg";
+import rightArrow from "../../Assets/rightArrow.svg";
 
 export default function Register() {
     return (
@@ -21,10 +24,9 @@ export default function Register() {
                 <img src={artistPalette} class="absolute right-0 bottom-0 h-16 md:h-24" alt="" />
                 <img src={trophy} class="absolute ml-1/5 h-16 hidden md:block md:h-20 lg:h-24" alt="" />
                 <div class="pt-16 pb-24">
-                    <a class="bg-registerNow border border-registerNowStroke text-black text-sm font-bold py-3 px-4 md:text-normal md:py-4 md:px-6 rounded-sm"
-                        href="https://google.com">
-                        REGISTER NOW
-                    </a>
+                    <button class="font-primary bg-registerNow border text-black text-sm md:text-md lg:text-lg font-bold py-3 px-4 hover:pl-2 hover:pr-2 md:text-normal md:py-4 md:px-6 hover:bg-registerNowHover rounded border-registerNow relative group w-36 md:w-44">
+                        <a href="https://google.com" target="_blank">REGISTER NOW <span class="hidden group-hover:inline-block"><img src={rightArrow} class="w-3.5" alt="" /></span></a>
+                    </button>
                     <img src={faceSavouringFood} class="absolute ml-3/5 h-16 hidden md:block md:h-20 lg:h-24"
                         alt="" />
                     <img src={crystalBall} class="absolute ml-1/10 h-16 bottom-0 md:h-20 lg:h-24" alt="" />
