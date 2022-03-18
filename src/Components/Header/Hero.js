@@ -14,10 +14,10 @@ export default function Hero() {
                 </div>
                 <div className="flex items-center justify-center space-x-4 pb-5">
                     <div>
-                        <button className="font-primary font-bold text-2xl rounded border-4 border-registerNow bg-registerNow text-black p-5 data-hover:reg hover:bg-orange-300 hover:border-5 hover:border-orange-300"> REGISTER NOW </button>
+                        <button className="font-primary font-bold text-2xl rounded border-4 border-registerNow bg-registerNow text-black p-5 data-hover:reg hover:bg-orange-300 hover:border-5 hover:border-orange-300 hover:p-5"> REGISTER NOW </button>
                     </div>
                     <div>
-                        <button className="font-primary font-bold text-2xl border-4 border-registerNow rounded p-5 text-white hover:bg-orange-300/50 hover:border-5 hover:border-orange-300"> JOIN DISCORD </button>
+                        <button className="font-primary font-bold text-2xl border-4 border-registerNow rounded p-5 text-white hover:bg-orange-300/50 hover:border-5 hover:border-orange-300 hover:p-5"> JOIN DISCORD </button>
                     </div>
                 </div>
                 <div className="space-y-10"></div>
