@@ -33,6 +33,8 @@ module.exports = {
       colors: {
         "registerNow": "#CBFC2A",
         "registerNowStroke": "#CAFB5B",
+        ppgrey: "#171717",
+        pppink: "#FFC3ED",
       },
       margin: {
         "1/2": "50%",
