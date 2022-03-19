@@ -8,6 +8,7 @@ module.exports = {
       },
       colors: {
         "btn-primary": "#CAFB5B",
+        "btn-hover": "#FFE084",
       },
     },
   },
