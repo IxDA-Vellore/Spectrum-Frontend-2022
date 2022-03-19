@@ -27,15 +27,19 @@ module.exports = {
         secondary: ["Monument Extended"],
       },
       backgroundImage: {
-        "bgFiller": "url('/assets/filler.png')",
-        "colorFiller": "linear-gradient(180deg, #8518BF -16.01%, #551278 118.9%);"
+        bgFiller: "url('/assets/filler.png')",
+        colorFiller:
+          "linear-gradient(180deg, #8518BF -16.01%, #551278 118.9%);",
       },
       colors: {
-        "registerNow": "#CBFC2A",
-        "registerNowStroke": "#CAFB5B",
-        "registerNowHover": "#FFE084",
-        ppgrey: "#171717",
-        pppink: "#FFC3ED",
+        registerNow: "#CBFC2A",
+        registerNowStroke: "#CAFB5B",
+        registerNowHover: "#FFE084",
+        prizePoolGrey: "#171717",
+        prizePoolPink: "#FFC3ED",
+      },
+      screens: {
+        xs: "360px",
       },
       margin: {
         "1/2": "50%",
@@ -50,8 +54,8 @@ module.exports = {
         "1/6": "16.666667%",
         "5/6": "83.333333%",
         "1/7": "14.285714%",
-        "1/10": "10%"
-      }
+        "1/10": "10%",
+      },
     },
   },
   plugins: [],
