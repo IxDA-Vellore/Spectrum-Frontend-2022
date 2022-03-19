@@ -59,7 +59,7 @@ const Header = () => {
         </div>
 
         {/* Container Div for Nav Links */}
-        <div className="hidden md:font-primary md:font-bold md:flex md:items-center">
+        <div className="hidden xl:font-primary xl:font-bold xl:flex xl:items-center">
           <ul className="flex">
             <li className="mx-7">
               <a href={config.nav.about} target="_blank" rel="noreferrer">
@@ -94,7 +94,7 @@ const Header = () => {
         {/* Container Div for Hamburger Menu */}
         <div
           onClick={clickHandler}
-          className="flex flex-col md:hidden p-4 cursor-pointer relative z-20"
+          className="flex flex-col xl:hidden p-4 cursor-pointer relative z-20"
         >
           <div className={hamBurgerAnimation.upper}></div>
           <div className={hamBurgerAnimation.middle}></div>
