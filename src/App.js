@@ -1,4 +1,5 @@
 import "./App.css";
+import About from "./Components/About/About";
 
 // Components Import
 import Header from "./Components/Header/Header";
@@ -9,6 +10,7 @@ function App() {
     <div className="bg-black text-white">
       <Header />
       <HeroSection />
+      <About />
     </div>
   );
 }
