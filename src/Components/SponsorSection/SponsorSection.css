@@ -14,8 +14,16 @@
 }
 
 .sponsor-logo {
-  margin: 2rem;
+  margin: 1.5rem;
   object-fit: cover;
   width: fit-content;
   height: 150px;
+}
+
+@media screen and (max-width: 1080px) {
+  .sponsor-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

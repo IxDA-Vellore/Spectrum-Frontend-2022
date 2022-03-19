@@ -6,6 +6,7 @@ import HeroSection from "./Components/HeroSection/HeroSection";
 
 import SpeakerSection from "./Components/SpeakerSection/SpeakerSection";
 import SponsorSection from "./Components/SponsorSection/SponsorSection";
+import FaqSection from "./Components/FaqSection/FaqSection";
 
 import About from "./Components/About/About";
 import PrizePool from "./Components/PrizePool/PrizePool";
@@ -20,6 +21,7 @@ function App() {
       <SpeakerSection />
       <PrizePool />
       <SponsorSection />
+      <FaqSection />
       <Register />
     </div>
   );

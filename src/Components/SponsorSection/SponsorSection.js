@@ -9,7 +9,7 @@ function SponsorSection() {
     <div className="sponsor-section">
       <p className="font-primary mt-24">🙌WOULDN'T BE POSSIBLE WITHOUT YOU</p>
       <p className="font-secondary">OUR SPONSORS</p>
-      <div className="sponsor-container">
+      <div className="sponsor-container ">
         <div className="sponsor-logo">
           <img src={sponsor1} alt="img" />
         </div>
