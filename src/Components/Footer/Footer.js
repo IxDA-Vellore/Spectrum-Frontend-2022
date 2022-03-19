@@ -1,5 +1,8 @@
 import React from "react";
 
+// Config Import
+import config from "../../config";
+
 // Component Import
 import Button from "../Button/Button";
 
@@ -24,18 +27,30 @@ const Footer = () => {
         <div className="lg:w-1/4 text-center py-6">
           <h1 className="font-bold text-2xl pb-6">VISIT</h1>
           <ul>
-            <li>ABOUT</li>
-            <li>SPEAKERS</li>
-            <li>SPONSORS</li>
-            <li>PRIZE POOL</li>
-            <li>FAQs</li>
+            <li>
+              <a href={config.nav.about}>ABOUT</a>{" "}
+            </li>
+            <li>
+              <a href={config.nav.speakers}>SPEAKERS</a>
+            </li>
+            <li>
+              <a href={config.nav.sponsors}>SPONSORS</a>
+            </li>
+            <li>
+              <a href={config.nav.prizePool}>PRIZE POOL</a>
+            </li>
+            <li>
+              <a href={config.nav.faqs}>FAQs</a>
+            </li>
           </ul>
         </div>
         <div className="lg:w-1/4 text-center py-6">
           <h1 className="font-bold text-2xl pb-6">Stay Updated</h1>
-          <Button width="8rem" height="5rem">
-            JOIN DISCORD
-          </Button>
+          <a href={config.discord}>
+            <Button width="8rem" height="5rem">
+              JOIN DISCORD
+            </Button>
+          </a>
         </div>
         <div className="lg:w-1/4 text-center py-6">
           <div>

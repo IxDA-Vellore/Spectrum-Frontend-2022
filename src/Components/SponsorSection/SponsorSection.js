@@ -6,7 +6,7 @@ import sponsor4 from "../../Assets/sponsor4.svg";
 
 function SponsorSection() {
   return (
-    <div className="sponsor-section">
+    <div className="sponsor-section" id="sponsors">
       <p className="font-primary mt-24 text-[#FFC3ED] text-sm">
         🙌WOULDN'T BE POSSIBLE WITHOUT YOU
       </p>

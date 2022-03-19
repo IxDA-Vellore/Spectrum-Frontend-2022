@@ -1,5 +1,8 @@
 import React from "react";
 
+// Config Import
+import config from "../../config";
+
 // Component Import
 import Button from "../Button/Button";
 
@@ -55,9 +58,11 @@ export default function Register() {
           alt=""
         />
         <div class="pt-16 pb-24">
-          <Button width="13.5rem" height="5rem">
-            REGISTER NOW
-          </Button>
+          <a href={config.register}>
+            <Button width="13.5rem" height="5rem">
+              REGISTER NOW
+            </Button>
+          </a>
           {/* <button class="font-primary bg-registerNow border text-black text-sm md:text-md lg:text-lg font-bold py-3 px-4 hover:pl-2 hover:pr-2 md:text-normal md:py-4 md:px-6 hover:bg-registerNowHover rounded border-registerNow relative group w-36 md:w-44">
             <a href="https://google.com" target="_blank" rel="noreferrer">
               REGISTER NOW{" "}

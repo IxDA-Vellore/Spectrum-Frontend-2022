@@ -62,29 +62,19 @@ const Header = () => {
         <div className="hidden lg:font-primary lg:font-bold lg:flex lg:items-center">
           <ul className="flex">
             <li className="mx-7">
-              <a href={config.nav.about} target="_blank" rel="noreferrer">
-                ABOUT
-              </a>
+              <a href={config.nav.about}>ABOUT</a>
             </li>
             <li className="mx-7">
-              <a href={config.nav.speakers} target="_blank" rel="noreferrer">
-                SPEAKERS
-              </a>
+              <a href={config.nav.speakers}>SPEAKERS</a>
             </li>
             <li className="mx-7">
-              <a href={config.nav.sponsors} target="_blank" rel="noreferrer">
-                SPONSORS
-              </a>
+              <a href={config.nav.sponsors}>SPONSORS</a>
             </li>
             <li className="mx-7">
-              <a href={config.nav.prizePool} target="_blank" rel="noreferrer">
-                PRIZE POOL
-              </a>
+              <a href={config.nav.prizePool}>PRIZE POOL</a>
             </li>
             <li className="mx-7">
-              <a href={config.nav.faqs} target="_blank" rel="noreferrer">
-                FAQS
-              </a>
+              <a href={config.nav.faqs}>FAQS</a>
             </li>
           </ul>
         </div>
@@ -104,29 +94,19 @@ const Header = () => {
       <nav className={showMenuData}>
         <ul className={hideNavLinks}>
           <li className="my-6">
-            <a href={config.nav.about} target="_blank" rel="noreferrer">
-              ABOUT
-            </a>
+            <a href={config.nav.about}>ABOUT</a>
           </li>
           <li className="my-6">
-            <a href={config.nav.speakers} target="_blank" rel="noreferrer">
-              SPEAKERS
-            </a>
+            <a href={config.nav.speakers}>SPEAKERS</a>
           </li>
           <li className="my-6">
-            <a href={config.nav.sponsors} target="_blank" rel="noreferrer">
-              SPONSORS
-            </a>
+            <a href={config.nav.sponsors}>SPONSORS</a>
           </li>
           <li className="my-6">
-            <a href={config.nav.prizePool} target="_blank" rel="noreferrer">
-              PRIZE POOL
-            </a>
+            <a href={config.nav.prizePool}>PRIZE POOL</a>
           </li>
           <li className="my-6">
-            <a href={config.nav.faqs} target="_blank" rel="noreferrer">
-              FAQS
-            </a>
+            <a href={config.nav.faqs}>FAQS</a>
           </li>
         </ul>
       </nav>

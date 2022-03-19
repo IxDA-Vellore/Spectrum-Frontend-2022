@@ -11,7 +11,7 @@ import thirdPrize from "../../Assets/3rd-place-medal.svg";
 const PrizePool = () => {
   return (
     <>
-      <section className="container">
+      <section className="container" id="prizepool">
         <div className="font-primary">
           <div className="text-[#FFC3ED] text-sm">🙈 WIN BIG!</div>
           <div className="font-bold text-5xl mb-16">PRIZE POOL</div>

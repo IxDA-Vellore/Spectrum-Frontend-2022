@@ -1,5 +1,8 @@
 import React from "react";
 
+// Config Import
+import config from "../../config";
+
 // Components Import
 import Button from "../Button/Button";
 
@@ -20,12 +23,16 @@ const HeroSection = () => {
               REACH FOR THE SPECTRUM!
             </div>
             <div className="flex flex-col md:flex-row justify-center items-center pb-20">
-              <Button width="13.5rem" height="5rem">
-                REGISTER NOW
-              </Button>
-              <Button width="13.5rem" height="5rem">
-                JOIN DISCORD
-              </Button>
+              <a href={config.register}>
+                <Button width="13.5rem" height="5rem">
+                  REGISTER NOW
+                </Button>
+              </a>
+              <a href={config.discord}>
+                <Button width="13.5rem" height="5rem">
+                  JOIN DISCORD
+                </Button>
+              </a>
             </div>
           </div>
         </div>
