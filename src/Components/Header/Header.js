@@ -59,32 +59,22 @@ const Header = () => {
         </div>
 
         {/* Container Div for Nav Links */}
-        <div className="hidden md:font-primary md:font-bold md:flex md:items-center">
+        <div className="hidden lg:font-primary lg:font-bold lg:flex lg:items-center">
           <ul className="flex">
             <li className="mx-7">
-              <a href={config.nav.about} target="_blank" rel="noreferrer">
-                ABOUT
-              </a>
+              <a href={config.nav.about}>ABOUT</a>
             </li>
             <li className="mx-7">
-              <a href={config.nav.speakers} target="_blank" rel="noreferrer">
-                SPEAKERS
-              </a>
+              <a href={config.nav.speakers}>SPEAKERS</a>
             </li>
             <li className="mx-7">
-              <a href={config.nav.sponsors} target="_blank" rel="noreferrer">
-                SPONSORS
-              </a>
+              <a href={config.nav.sponsors}>SPONSORS</a>
             </li>
             <li className="mx-7">
-              <a href={config.nav.prizePool} target="_blank" rel="noreferrer">
-                PRIZE POOL
-              </a>
+              <a href={config.nav.prizePool}>PRIZE POOL</a>
             </li>
             <li className="mx-7">
-              <a href={config.nav.faqs} target="_blank" rel="noreferrer">
-                FAQS
-              </a>
+              <a href={config.nav.faqs}>FAQS</a>
             </li>
           </ul>
         </div>
@@ -94,7 +84,7 @@ const Header = () => {
         {/* Container Div for Hamburger Menu */}
         <div
           onClick={clickHandler}
-          className="flex flex-col md:hidden p-4 cursor-pointer relative z-20"
+          className="flex flex-col lg:hidden p-4 cursor-pointer relative z-20"
         >
           <div className={hamBurgerAnimation.upper}></div>
           <div className={hamBurgerAnimation.middle}></div>
@@ -104,29 +94,19 @@ const Header = () => {
       <nav className={showMenuData}>
         <ul className={hideNavLinks}>
           <li className="my-6">
-            <a href={config.nav.about} target="_blank" rel="noreferrer">
-              ABOUT
-            </a>
+            <a href={config.nav.about}>ABOUT</a>
           </li>
           <li className="my-6">
-            <a href={config.nav.speakers} target="_blank" rel="noreferrer">
-              SPEAKERS
-            </a>
+            <a href={config.nav.speakers}>SPEAKERS</a>
           </li>
           <li className="my-6">
-            <a href={config.nav.sponsors} target="_blank" rel="noreferrer">
-              SPONSORS
-            </a>
+            <a href={config.nav.sponsors}>SPONSORS</a>
           </li>
           <li className="my-6">
-            <a href={config.nav.prizePool} target="_blank" rel="noreferrer">
-              PRIZE POOL
-            </a>
+            <a href={config.nav.prizePool}>PRIZE POOL</a>
           </li>
           <li className="my-6">
-            <a href={config.nav.faqs} target="_blank" rel="noreferrer">
-              FAQS
-            </a>
+            <a href={config.nav.faqs}>FAQS</a>
           </li>
         </ul>
       </nav>

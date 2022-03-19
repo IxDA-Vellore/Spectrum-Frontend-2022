@@ -1,0 +1,18 @@
+.about-scroll {
+    background-color: #171717;
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.12);
+    margin: 1rem auto;
+}
+
+.scroll-heading,
+.scroll-info {
+    font-size: 2rem;
+    font-size: bold;
+    margin-top: 1rem;
+}
+
+.scroll-info {
+    font-size: 1.25rem;
+}
