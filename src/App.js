@@ -15,9 +15,9 @@ function App() {
     <div className="bg-black text-white">
       <Header />
       <HeroSection />
+      <About />
       <SpeakerSection />
       <SponsorSection />
-      <About />
       <PrizePool />
     </div>
   );
