@@ -9,6 +9,7 @@ import SponsorSection from "./Components/SponsorSection/SponsorSection";
 
 import About from "./Components/About/About";
 import PrizePool from "./Components/PrizePool/PrizePool";
+import Register from "./Components/Register/Register";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <SpeakerSection />
       <PrizePool />
       <SponsorSection />
+      <Register />
     </div>
   );
 }
