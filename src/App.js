@@ -17,8 +17,8 @@ function App() {
       <HeroSection />
       <About />
       <SpeakerSection />
-      <SponsorSection />
       <PrizePool />
+      <SponsorSection />
     </div>
   );
 }

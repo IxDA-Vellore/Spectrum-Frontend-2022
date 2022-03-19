@@ -1,0 +1,21 @@
+.sponsor-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsor-container {
+  margin-top: 2rem;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: red; */
+}
+
+.sponsor-logo {
+  margin: 2rem;
+  object-fit: cover;
+  width: fit-content;
+  height: 150px;
+}
