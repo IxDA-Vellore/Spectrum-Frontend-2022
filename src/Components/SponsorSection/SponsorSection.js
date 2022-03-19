@@ -7,9 +7,11 @@ import sponsor4 from "../../Assets/sponsor4.svg";
 function SponsorSection() {
   return (
     <div className="sponsor-section">
-      <p className="font-primary mt-24">🙌WOULDN'T BE POSSIBLE WITHOUT YOU</p>
-      <p className="font-secondary">OUR SPONSORS</p>
-      <div className="sponsor-container ">
+      <p className="font-primary mt-24 text-[#FFC3ED] text-sm">
+        🙌WOULDN'T BE POSSIBLE WITHOUT YOU
+      </p>
+      <p className="font-primary text-2xl font-bold">OUR SPONSORS</p>
+      <div className="sponsor-container">
         <div className="sponsor-logo">
           <img src={sponsor1} alt="img" />
         </div>
