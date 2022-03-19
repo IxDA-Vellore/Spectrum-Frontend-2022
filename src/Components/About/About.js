@@ -1,5 +1,7 @@
 // Components import
 import ScrollDiv from './ScrollDiv/ScrollDiv';
+// CSS import
+import './About.css';
 // Assets import
 import magicWand from '../../Assets/magic-wand.svg';
 import bullseye from '../../Assets/bullseye.svg';
@@ -8,20 +10,20 @@ import trophy from '../../Assets/trophy.svg';
 
 const About = () => {
     return (
-        <div className="container flex justify-between h-[45vh] my-12">
-            <div className="about-content w-[65%] flex-col items-center justify-between">
+        <div className="container about-main font-primary">
+            <div className="about-content">
                 <div className="about-heading">
-                    <p className="font-bold text-lg">😄 LET’S BEGIN!</p>
-                    <h1 className="text-6xl mt-3">ABOUT THE EVENT</h1>
+                    <p className="about-subhead">😄 LET’S BEGIN!</p>
+                    <h1 className="about-heading">ABOUT THE EVENT</h1>
                 </div>
-                <div className="about-info text-lg mt-6">
+                <div className="about-info">
                     Spectrum is 72 hour long, virtual designathon for designers
                     from all over the globe. It's a perfect blend of Ideating,
                     Problem Solving and Designing industry level problem
                     statements.
                 </div>
             </div>
-            <div className="about-scroll__container flex-col justify-center items-center overflow-scroll overflow-x-hidden">
+            <div className="about-scroll__container">
                 <ScrollDiv
                     heading="COMPETE AND COLLABORATE"
                     content="Compete in teams of up to 2-3 people to create unique
