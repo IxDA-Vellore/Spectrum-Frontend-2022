@@ -1,21 +1,27 @@
 import React from "react";
 
+// Components Import
+import Button from "../Button/Button";
+
 const HeroSection = () => {
   return (
     <>
       <section className="container pt-16">
         <div className="flex justify-center items-center">
           <div>
-            <div className="font-primary font-semibold text-lg pb-4">
+            <div className="font-primary font-semibold text-sm md:text-lg pb-4 text-center md:text-left">
               APRIL 14th 2022
             </div>
-            <div className="font-secondary text-7xl font-extrabold">
+            <div className="font-secondary text-4xl md:text-7xl font-extrabold text-center md:text-left">
               SPECTRUM
             </div>
-            <div className="font-primary font-semibold text-lg py-4 text-center">
+            <div className="font-primary font-semibold text-sm md:text-lg py-4 text-center">
               IF YOU HAVEN’T FOUND IT YET, KEEP LOOKING. <br />
               REACH FOR THE SPECTRUM!
             </div>
+            <Button width="13.5rem" height="5rem">
+              REGISTER NOW
+            </Button>
           </div>
         </div>
       </section>

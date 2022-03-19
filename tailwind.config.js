@@ -6,6 +6,9 @@ module.exports = {
         primary: ["Barlow"],
         secondary: ["Monument Extended"],
       },
+      colors: {
+        "btn-primary": "#CAFB5B",
+      },
     },
   },
   plugins: [],
