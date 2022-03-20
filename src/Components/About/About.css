@@ -21,14 +21,12 @@
 }
 
 .about-content {
-    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .about-scroll__container {
-    /* border: 2px solid blue; */
     height: 100%;
     overflow: scroll;
 }
