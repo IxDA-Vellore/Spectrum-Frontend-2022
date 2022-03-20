@@ -20,16 +20,13 @@
     font-weight: bold;
 }
 
-
 .about-content {
-    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .about-scroll__container {
-    /* border: 2px solid blue; */
     height: 100%;
     overflow: scroll;
 }
@@ -37,6 +34,8 @@
 @media only screen and (max-width: 1280px) {
     .about-main {
         flex-direction: column;
+        height: 80vh;
+        margin-bottom: 4rem;
     }
     .about-scroll__container {
         margin-top: 2rem;
@@ -44,7 +43,6 @@
     .about-content {
         text-align: center;
     }
-    
 }
 
 @media only screen and (max-widht: 768px) {
