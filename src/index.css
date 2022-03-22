@@ -7,7 +7,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /* Monument Extended Font */
-@import url("http://fonts.cdnfonts.com/css/monument-extended");
+/* @import url("http://fonts.cdnfonts.com/css/monument-extended"); */
+
+@font-face {
+  font-family: "Monument-Extended-Regular";
+  src: url("./Fonts/MonumentExtended-Regular.woff2") format("woff2"),
+    url("./Fonts/MonumentExtended-Regular.woff") format("woff"),
+    url("./Fonts/MonumentExtended-Regular.ttf") format("truetype");
+  font-weight: 400;
+  /* font-display: swap;
+  font-style: normal; */
+}
+
+@font-face {
+  font-family: "Monument-Extended-Ultrabold";
+  src: url("./Fonts/MonumentExtended-Ultrabold.woff2") format("woff2"),
+    url("./Fonts/MonumentExtended-Ultrabold.woff") format("woff"),
+    url("./Fonts/MonumentExtended-Ultrabold.ttf") format("truetype");
+  font-weight: 800;
+  /* font-display: swap;
+  font-style: normal; */
+}
 
 /* Custom CSS */
 .container {

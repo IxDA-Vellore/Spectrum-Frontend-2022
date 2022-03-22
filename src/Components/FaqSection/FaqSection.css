@@ -1,4 +1,4 @@
-.faq-section {
+/* .faq-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,4 +9,103 @@
   width: 70%;
   display: flex;
   flex-wrap: wrap;
+} */
+
+.Header {
+  color: #ffc3ed;
+  font-family: "Barlow";
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+}
+.SubHeader {
+  font-family: "Barlow";
+  color: white;
+  font-size: 56px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+.parentdiv {
+  display: flex;
+  gap: 20px;
+}
+.Col1 {
+  font-family: "Barlow";
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.Col2 {
+  font-family: "Barlow";
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.Card1 {
+  margin: 10px;
+}
+/* * {
+  color: white;
+  background-color: black;
+} */
+
+.question-section {
+  background: #171717;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.question-align {
+  background-color: #171717;
+  align-items: center;
+  display: flex;
+  min-height: 10px;
+  text-align: left;
+}
+
+.question-align h4 {
+  margin-left: 8px;
+}
+
+.question-style {
+  background-color: #171717;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.question-icon {
+  background-color: #171717;
+  border: none;
+  cursor: pointer;
+  font-size: 31px;
+  margin-left: auto;
+  margin-right: 8px;
+}
+
+.rotate {
+  transform: rotate(-45deg);
+  transition-duration: 0.6s ease;
+}
+.TopClass {
+  background-color: #171717;
+}
+
+.answer {
+  background-color: #171717;
+  margin-left: 8px;
+  margin-right: 8px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+  text-align: left;
+}
+
+.FAQans {
+  background-color: #171717;
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
 }
