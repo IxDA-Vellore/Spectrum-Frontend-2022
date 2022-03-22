@@ -24,7 +24,7 @@ module.exports = {
     extend: {
       fontFamily: {
         primary: ["Barlow"],
-        secondary: ["Monument Extended"],
+        secondary: ["Monument-Extended"],
       },
       backgroundImage: {
         bgFiller: "url('/assets/filler.png')",
